@@ -11,11 +11,11 @@ Aditional to these, NGROK is also used.
 ## SETUP
 ### 1. GITHUB
 1. Create a Public Repository.
-2. Generate a Personal Access Token and store it somewhere.
-   The link for it is here: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic
+2. Generate a Personal Access Token and store it somewhere safe.
+   - The link for it is here: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic
 ### 2. Jenkins
 1. Install Jenkins on your PC.
-   Link: https://www.jenkins.io/download/
+   - Link: https://www.jenkins.io/download/
 ### 3. ASANA
 1. Install Asana App.
 2. Create an Account.
