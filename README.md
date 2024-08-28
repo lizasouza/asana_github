@@ -63,10 +63,10 @@ In this project you will be to integrate Github and Asana, specifically when a G
  - The Payload URL will look like:
      - https://41e7-103-178-207-40.ngrok-free.app/generic-webhook-trigger/invoke?token=abc1234
  - Content Type set to : **application/JSON**
- - Choose Let me select individual events and within it Issues
- - Make sure Active is ticked and Update/Save.
+ - Choose Let me select individual events and within it select Issues
+ - Make sure the Webhook, Active is ticked and Update/Save.
 ### 3. Setting up the code integration.js
-1. Open the file in local and make the changes required according to your Github Repository PAT , Asana PAT and Local URL.
+1. Open the file in local and make the changes required according to your Github Repository PAT , Asana PAT and GID and Local URL.
 2. Changes are highlighted in the code for convenience.
 3. Once all changes are done, save the file as integration.js to this path in your local :  C:\ProgramData\Jenkins\.jenkins\workspace\webhook
 
