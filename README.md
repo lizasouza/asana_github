@@ -21,3 +21,8 @@ Aditional to these, NGROK is also used.
 2. Create an Account.
 3. Go to Developer page via this link https://developers.asana.com/docs/manage-and-share-your-app after opening the link click on developer console and that should open.
 4. Generate PAT for yourself and store it somewhere safe.
+### 4. Other Important Installations and Versions
+1. Install Node.js 22.7.0
+   - Use Link and select the correct version : https://nodejs.org/en/download/package-manager
+2. Install NGROK
+   - Use Link https://ngrok.com/download
