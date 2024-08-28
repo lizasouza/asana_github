@@ -1,6 +1,6 @@
 # GITHUB-ASANA INTEGRATION
 ## DESCRIPTION
-In this project we will see how to integrate Github and Asana, specifically when a Github Issue is create a corresponding task will be created in Asana for the issue.
+In this project we will see how to integrate Github and Asana, specifically when a Github issue is created a corresponding task will be created in Asana for the issue.
 
 ## SOFTWARES USED
 1. Github
@@ -11,8 +11,8 @@ In this project we will see how to integrate Github and Asana, specifically when
 ## SETUP
 ### 1. GITHUB
 1. Create a Public Repository.
-2. Generate a Personal Access Token and store it somewhere safe.
-   - The link for it is here: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic
+2. Generate a Personal Access Token for your Account and store it somewhere safe.
+   - For steps, the link for it is here: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic
 ### 2. Jenkins
 1. Install Jenkins on your PC.
    - Link: https://www.jenkins.io/download/
