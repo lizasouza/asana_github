@@ -51,17 +51,17 @@ In this project we will see how to integrate Github and Asana, specifically when
 2. Select **New Item** from left side section
 3. Enter Item name as per your wish and select **Free Style Project**. Then click **OK**.
 4. Under **Source Code Management** select **Git**.
-  - Enter the Github Repository link which will used in the project.
-  - In Branch select the branch which will be used as for me it will me /main.
+   - Enter the Github Repository link which will used in the project.
+   - In Branch select the branch which will be used as for me it will me /main.
 5. Under **Build Triggers** choose Generic Webhook Trigger
-  - For token, create a random token eg. abc123
+   - For token, create a random token eg. abc123
 6. Under **Build Steps**
-  - Add Execute Windows Batch Command open 3 tabs for it, Add all these commands one in one tab and save and run the project by using build now.
-  - npm i @octokit/rest
-  - npm install asana --save
-  - npm i @octokit/core
+   - Add Execute Windows Batch Command open 3 tabs for it, Add all these commands one in one tab and save and run the project by using build now.
+   - npm i @octokit/rest
+   - npm install asana --save
+   - npm i @octokit/core
 7. Now you delete all the above three tabs and create a new tab of **Execute Windows Batch Command**, the final command for all your projects will be
-  - node integration.js
+   - node integration.js
 ### 2. Setting up Github Webhook
 1. Open the Public Repository which you will be using, go to **Settings** and then select **Webhooks** from left side list.
 2. Select **Add Webhook**, for the payload URL
