@@ -26,3 +26,5 @@ Aditional to these, NGROK is also used.
    - Use Link and select the correct version : https://nodejs.org/en/download/package-manager
 2. Install NGROK
    - Use Link https://ngrok.com/download
+3. Install npm version 10.8.2
+   
