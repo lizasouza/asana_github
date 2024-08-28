@@ -1,6 +1,6 @@
 # GITHUB-ASANA INTEGRATION
 ## DESCRIPTION
-In this project you will be to integrate Github and Asana, specifically when a Github Issue is create a corresponding task will be created in Asana for the issue.
+In this project we will see how to integrate Github and Asana, specifically when a Github Issue is create a corresponding task will be created in Asana for the issue.
 
 ## SOFTWARES USED
 1. Github
