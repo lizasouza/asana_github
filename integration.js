@@ -3,13 +3,13 @@ import { Octokit } from "@octokit/core";                        //importing libr
 import Asana from 'asana';                                      //importing library for asana for calling Asana REST API
 const octokit = new Octokit({
   auth: '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'
-})                                                             //Personal Access Token of Github
+})                                                             //<Your-Token> Use your Personal Access Token of Github
 
 
 //Sending GET request to recieve information/payload of all issues existing for the repository
-const response = await octokit.request('GET /repos/lizasouza/New_Project/issues?creator', {
-    owner: 'lizasouza',
-    repo: 'New_Project',
+const response = await octokit.request('GET /repos/lizasouza/New_Project/issues?creator', {   //GET /repos/{owner}/{repo}/issues?creator add owner and repo for your github project
+    owner: 'lizasouza',       // Change to your repo owner
+    repo: 'New_Project',      // Change to your repo name
     headers: {
       'X-GitHub-Api-Version': '2022-11-28'
     }
@@ -27,7 +27,7 @@ date.setDate(date.getDate() + 3);                               //three days of 
 
 let client = Asana.ApiClient.instance;
 let token = client.authentications['token'];
-token.accessToken = '2/1208127672532675/1208128280472858:7a66d86c798fd23940119d2f060f5d94';    //Asana Personal Access Token
+token.accessToken = '2/1208127672532675/1208128280472858:7a66d86c798fd23940119d2f060f5d94';    //<Your-Token> Add you own Asana Personal Access Token
 
 let tasksApiInstance = new Asana.TasksApi();
 let body = {
@@ -45,7 +45,7 @@ let body = {
         "is_rendered_as_separator": false,
         "liked": true,
         "assignee": "me",                                                            //As no mail-ID or GID available in GitHub response payload, I have assigned it to me
-        "projects": ["1208132488022018"],                                            //Project GID of asana underwhich tasks will be created
+        "projects": ["1208132488022018"],                                            // Add your Project ID of Asana
     },
 };
 let opts = {};
