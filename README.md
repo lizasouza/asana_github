@@ -71,7 +71,7 @@ In this project we will see how to integrate Github and Asana, specifically when
      - https://41e7-103-178-207-40.ngrok-free.app/generic-webhook-trigger/invoke?token=abc123
      - Please note it will be different for everyone.
  - Content Type set to : **application/JSON**
- - For Secret use the Secret ID created here [Jenkins]()
+ - For Secret use the Secret ID created here [Jenkins](#2-jenkins).
  - Choose Let me select individual events and within it select Issues
  - Make sure the Webhook, Active is ticked and Update/Save.
 ### 3. Setting up the code integration.js
