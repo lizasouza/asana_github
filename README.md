@@ -23,6 +23,13 @@ In this project we will see how to integrate Github and Asana, specifically when
    - In Plugins, go to **Available Plugins** and install these two plugins
      - Generic Webhook Trigger Plugin Version2.2.2
      - NodeJS Plugin Version1.6.2
+3. Needed security settings for Generic Webhook Trigger.
+   - Go to **Manage Jenkins** and then **Settings**.
+   - Scroll down to **Generic Webhook Trigger Whitelist**
+   - Click Add, tick **Verify with HMAC** . Leave the IP, CIDR or IP range empty.
+   - Under HMAC Header write: x-hub-signature-256
+   - For HMAC Secret, click **Add** and then select **Jenkins**.
+   - Under Kind choose Secret Text and create a Secret ID. Please make note of this Secret ID we will use this in Github Webhook Setting.
 ### 3. ASANA
 1. Install Asana App.
 2. Create an Account.
