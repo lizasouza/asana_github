@@ -6,7 +6,7 @@ In this project you will be to integrate Github and Asana, specifically when a G
 1. Github
 2. Asana
 3. Jenkins
-Aditional to these, NGROK is also used.
+- Aditional to these, NGROK is also used.
 
 ## SETUP
 ### 1. GITHUB
